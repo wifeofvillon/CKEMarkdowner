@@ -12,5 +12,12 @@
     "Markdown"
   ],
   "author": "wifeofvillon",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "ckeditor": "^4.8.0"
+  },
+  "dependencies": {
+    "marked": "^0.3.12"
+  },
+  "repository": "CKEMarkdowner"
 }
