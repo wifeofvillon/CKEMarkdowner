@@ -1,0 +1,20 @@
+{
+  "name": "CKEMarkdowner",
+  "short_name": "CKEMarkdowner",
+  "description": "Hacking CKEditor textarea to use Markdown",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "view.html"/*,
+    "default_icon": "icon.png"*/
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+M",
+        "mac": "MacCtrl+Shift+M"
+      },
+      "description": "Toggles CKEditor to Markdown"
+    }
+  }
+}
